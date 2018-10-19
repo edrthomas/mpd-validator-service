@@ -1,0 +1,12 @@
+language: python
+python:
+  - "2.7"
+
+script:
+  - echo "No test yet"
+
+deploy:
+  provider: heroku
+  app: mpd-validator
+  api_key:
+    secure: $HEROKU_API_KEY
